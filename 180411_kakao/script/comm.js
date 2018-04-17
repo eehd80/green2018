@@ -8,5 +8,7 @@ $(function () {
     });
     
     //
-    
+    var now = 1;
+    var max = 3;
+    var width = 1000;
 });
