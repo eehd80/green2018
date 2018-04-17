@@ -10,7 +10,13 @@ $(function () {
     //
     var now = 1;
     var max = 3;
-    var width = 1000;
+    var width = $('.mainslide li').width();
 
-    dd
+    if(now=max){
+
+    }else{
+
+    }
+
+
 });
