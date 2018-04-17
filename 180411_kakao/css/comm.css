@@ -29,8 +29,10 @@
     padding-top: 50px;
 }
 .footer {
-    height: 110px;
-    padding: 20px 0;
+    height: 100px;
+    padding-top: 50px;
+    background: #eee;
+    text-align: center;
 }
 
 .header h1 {
@@ -41,19 +43,91 @@
 }
 .menu_depth1>li {
     float: left;
+    position: relative;
 }
 .menu_depth1 a {
     display: block;
     width: 200px;
     height: 20px;
     line-height: 20px;
+    text-align: center;
 }
 .menu_depth1 a:hover {
     background: #fbce00;
 }
 .menu_depth2 {
     position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 200;
+}
+
+.mainslide ul {
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 100;
+    width: 3300px;
 }
+.mainslide li {
+    float: left;
+}
+.mainslide .slide_txt {
+    position: absolute;
+    top: 120px;
+    left: 370px;
+    padding: 20px;
+    background: rgba(255,255,255,0.6);
+    border-radius:20px;
+    text-align: center;
+    font-size: 20px;
+}
+.mainslide .slide_txt a {
+    color: #fbce00;
+}
+.contents .col1 {
+    float: left;
+    width: 500px;
+}
+.contents .col2 {
+    float: left;
+    width: 200px;
+    margin:0 50px;
+}
+.contents .col3 {
+    float: left;
+    width: 300px;
+}
+.contents h2 {
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+.col1 li{
+    margin-bottom: 10px;
+}
+.col1 span {
+    float: right;
+    font-size: 11px;
+    color: #999;
+}
+.col2 a {
+    display: block;
+}
+.col2 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.foot_menu a {
+    margin:0 10px;
+}
+.copyright {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
