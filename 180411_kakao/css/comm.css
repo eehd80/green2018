@@ -56,6 +56,7 @@
     background: #fbce00;
 }
 .menu_depth2 {
+    display: none;
     position: absolute;
     top: 30px;
     left: 0;
@@ -122,6 +123,32 @@
 }
 .copyright {
     margin-top: 20px;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 100px;
+}
+#modal.on {
+    display: block;
+}
+#modal img {
+    width: 50%;
+    height: auto;
+}
+#modal button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
 }
 
 
