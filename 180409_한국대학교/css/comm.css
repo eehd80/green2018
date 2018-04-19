@@ -75,6 +75,13 @@ header .menu_depth2>li>a:hover {
     top: 0;
     left: 0;
     width: 3000px;
+    animation : example 6s infinite;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    33%  {left:-1000px; top:0px;}
+    66%  {left:-2000px; top:0px;}
+    100% {left:0px; top:0px;}
 }
 .slideimg li {
     float: left;
