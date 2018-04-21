@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>BANILACO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/comm.css">
+  <script src="js/jquery-1.12.3.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1>
+        <a href="#">
+          <img src="imgs/logo_banilaco.png" alt="banilaco">
+        </a>
+      </h1>
+      <ul class="menu_depth1">
+        <li>
+          <a href="#">ONLINE SHOP</a>
+          <ul class="menu_depth2 fst">
+            <li><a href="#">립</a></li>
+            <li><a href="#">아이</a></li>
+            <li><a href="#">페이스</a></li>
+            <li><a href="#">소품</a></li>
+            <li><a href="#">리무버</a></li>
+          </ul> 
+        </li>
+        <li>
+          <a href="#">TOP 10</a>
+        </li>
+        <li>
+          <a href="#">EVENT</a>
+        </li>
+        <li>
+          <a href="#">ZERO123</a>
+          <ul class="menu_depth2 lst">
+            <li><a href="#">수분</a></li>
+            <li><a href="#">모공</a></li>
+            <li><a href="#">피지</a></li>
+            <li><a href="#">브라이트닝</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+
+        <img src="imgs/slide1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/slide2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/slide3.jpg" alt="">
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+    <div class="content">
+      <!-- 공지사항 -->
+      <div class="section_bbs">
+        <h2>공지사항</h2>
+        <ul>
+          <li>
+            <a href="#">부스팅 크림 구매시 제로 50ml 증정</a>
+            <span>2018.02.06</span>
+          </li>
+          <li>
+            <a href="#">November GIFT♥</a>
+            <span>2018.02.06</span>
+          </li>
+          <li>
+            <a href="#">[바닐라코] 9월 베스트 포토 리뷰 당첨자 발표</a>
+            <span>2018.02.06</span>
+          </li>
+          <li>
+            <a href="#">우리들만의 메이크업 B. by BANILA #포토후기로 공유해!</a>
+            <span>2018.02.06</span>
+          </li>
+          <li>
+            <a href="#">부스팅 크림 구매시 제로 123 스페셜 패키지 증정 </a>
+            <span>2018.02.06</span>
+          </li>
+          <li>
+            <a href="#">치어 워터 치크 구매시 실리콘 퍼프 증정 </a>
+            <span>2018.02.06</span>
+          </li>
+          <li>
+            <a href="#">우리들만의 메이크업 B. by BANILA</a>
+            <span>2018.02.06</span>
+          </li>
+        </ul>
+      </div>
+      <!-- //공지사항 -->
+
+      <!-- 이벤트 -->
+      <div class="section_event">
+        <h2>이벤트</h2>
+        <a href="#">
+          <span class="cover">
+            깊은 #삼중보습 을 만나고싶다면? <br>
+            #바닐라코 #디어하이드레이션딥모이스처크림<br>
+            고분자, 중분자, 저분자로 구성된 3중 <br>
+            #히알루론산 함유로 수분크림...
+          </span>
+          <img src="imgs/img_event.jpg" alt="11월 구매금액대 GIFT EVENT">
+        </a>
+      </div>
+      <!-- //이벤트 -->
+
+      <!-- 바로가기 -->
+      <div class="section_go">
+        <h2>바로가기</h2>
+        <a href="#">
+          <img src="imgs/ico1.png" alt=""><br>
+          멤버십 서비스
+        </a>
+        <a href="#">
+          <img src="imgs/ico2.png" alt=""><br>
+          매장안내
+        </a>
+        <a href="#">
+          <img src="imgs/ico3.png" alt=""><br>
+          쿠폰존
+        </a>
+        <a href="#">
+          <img src="imgs/ico4.png" alt=""><br>
+          고객센터
+        </a>
+        <a href="#">
+          <img src="imgs/ico5.png" alt=""><br>
+          친구소개
+        </a>
+      </div>
+      <!-- //바로가기 -->
+    </div>
+    <div class="footer">
+      <div class="footer_menu">
+        <a href="#">이용약관</a> 
+        <span>|</span>
+        <a href="#">개인정보처리방침</a> 
+        <span>|</span>
+        <a href="#">이메일무단수집거부</a> 
+        <span>|</span>
+        <a href="#">제휴문의</a> 
+        <span>|</span>
+        <a href="#">해외수출문의(Overseas inquiry)</a>
+      </div>
+      <address>서울시 강남구 연주로 541 (역삼동) F&#38;F 빌딩 10층 바닐라코 사업자등록번호 214-86-49402 | 통신판매번호: 강남 03253</address>
+      <div class="copyright">
+        COPYRIGHT  F&#38;Co. Co.,Ltd ALL RIGHTS RESERVED
+      </div>
+
+    </div>
+  </div>
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

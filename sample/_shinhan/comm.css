@@ -1,0 +1,39 @@
+* {margin:0; padding:0; font-family: '맑은 고딕','malgun Gothic', sans-serif; font-size: 12px;}
+a {text-decoration: none;}
+li {list-style: none;}
+.screen_out {overflow: hidden;width: 0;height: 0;text-indent: -9999px}
+
+.wrap {width: 1024px;margin: 0 auto;}
+.header {overflow: hidden;height: 80px;}
+.header .logo {float: left;margin-top: 24px;}
+.header .list_menu {float: right;margin-top: 35px;}
+.header .list_menu li {float: left;margin-left: 10px;padding-left: 12px;background: url(imgs/ico_dot.gif) 0 4px no-repeat;}
+.header .list_menu li:first-child {background: none;}
+.header .list_menu .link_g {font-size: 15px;color: #333;}
+
+.slideimg {overflow: hidden;position: relative;width: 1024px;height: 317px;}
+.slideimg .list_slide {overflow: hidden;position: absolute;top: 0;left: 0;width: 3072px;}
+.slideimg .list_slide li {float: left;}
+
+.slideimg .list_dot {position: absolute;bottom: 40px;left: 50%;}
+.slideimg .list_dot li {float: left;margin-right: 10px;}
+.slideimg .list_dot a {display: block;width: 10px;height: 10px;}
+.slideimg .list_dot .on a {background: url(imgs/btn_slide_on.png) 0 0 no-repeat;}
+
+.cont {overflow: hidden;border: 1px solid #999;}
+.cont .col_c {float: left;width: 305px;height: 190px;padding: 40px 0 0 35px}
+.cont .col2 {border-right: 1px solid #999;border-left: 1px solid #999;}
+.cont h3 {margin-bottom: 25px;font-size: 19px;color: #222}
+.cont .list_col1 a {display: block;width: 135px;margin-bottom: 10px;font-size:13px ;color: #666;background: url(imgs/arr_gray.gif) 100% 5px no-repeat;}
+.cont strong {display: block;margin-bottom: 18px;font-size: 16px;color: #222}
+.cont p {font-size: 13px;color: #666}
+.cont .col1 {background: url(imgs/bg_col1.gif) 240px 125px no-repeat;}
+.cont .col2 {background: url(imgs/bg_col2.gif) 240px 137px no-repeat;}
+.cont .col3 {background: url(imgs/bg_col3.gif) 240px 145px no-repeat;}
+
+.footer ul {width: 100%;margin: 25px 0 35px 0;text-align: center;}
+.footer li {display: inline-block;}
+.footer a {color: #666}
+.footer span {display: inline-block; margin: 0 7px 0 10px;font-size: 10px;color: #ccc;line-height: 80%; }
+.footer address {width: 100%;text-align: center;font-style: normal;color: #666}
+.footer .copyright {width: 100%;margin: 15px 0 30px;text-align: center;color: #666}

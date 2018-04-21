@@ -1,0 +1,61 @@
+메인 컬러 : #d06e0d
+
+텍스트 컬러 : #333
+
+
+width : 1600px
+----------------------------
+header(120px)
+
+로고
+
+ - COMPANY(회사소개 / 회사연혁 / 계열사 / 오시는 길)
+ - PRODUCT(홈&차림 세트 / 예단 / 티&커피&머그 / 면기&볼 / 어린이 세트)
+ - BRANDS(Prouna / Whitebloom / Collaboration)
+ - B2B/B2C
+ - COMMUNITY(Notice / Magazine / Media)
+ - CUSTOMER(파손보증제 / 매장안내 / CS Center)
+
+-----------------------------------------------------------------------------
+slideimg(700px)
+
+
+
+
+-----------------------
+content(1100px)
+
+1. MD's PICK            MORE
+
+이미지1 이미지2 이미지3
+
+
+
+2. NOTICE              +MORE
+- 한국도자기, 공식홈페이지 한국닷컴 리뉴얼 오픈        2017-11-16
+- 한국도자기, '여성소비자가 뽑은 좋은기업 대상'..      2017-11-16
+- 한국도자기, 리미티드 에디션 '헤이즈'..               2017-11-10
+- 한국도자기, '2017디자인코리아'서 굿디자인상 수..     2017-11-10
+- 한국도자기, '더 서울어워즈'제품 협찬                 2017-10-31
+
+
+3. HOT ISSUE (마우스오버)
+
+이미지1 : New product - 핫한 메리 크리스마스 기프트 제품!
+이미지2 : MD's Pick - 가을날의 티타임! 골드빛 루미너스 커피세트
+이미지3 : HIT Item - 고급스러운 금빛 날개의 향연, 윙스 홈세트! 
+이미지4 : SNS 핫이슈 - 이색디저트+홈카페 테이블링!
+이미지5 : Instagram - Welcome to the official instagram of hankook
+이미지6 : In Media - [KBS 황금빛 내인생]에 한국도자기가 떴다!
+
+
+-----------------------------------------------------------------------------
+footer(200px)
+
+HOME | CS CENTER | STORE | SITE MAP
+
+COMPANY : 한국도자기(주), OWNER : 김영신 , TEL : 043) 262-5251 , FAX : 043) 262-5215
+ADDRESS : 청주시 흥덕구 월명로 55번길 100
+개인정보관리책임자 : 김영신 , E-MAIL : webmaster@hankook.com
+BUSINESS LICENSE : 315-81-00274, A MAIL-ORDER BUSINESS REPORT : 제 2016-충북청주-0053호 [사업자정보확인]
+COPYRIGHT (c) 한국도자기, ALL RIGHTS RESERVED.

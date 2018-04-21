@@ -1,0 +1,11 @@
+width : 960px
+
+header : 200px
+main image : 350px
+contents : 500px
+footer : 150px
+
+메인컬러 : #265869
+보조컬러 : #666
+바탕색 : #fff
+기본 텍스트 컬러 : #666

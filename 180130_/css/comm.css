@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  vertical-align: top;
+  font-family: 'Noto Sans','맑은 고딕',malgun gothic,'돋움',Dotum,'sans-serif';
+  font-size: 14px;
+  color: #666
+}
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.header {
+  height: 200px;
+}
+.main_images {
+  overflow: hidden;
+  position: relative;
+  height: 480px;
+}
+.contents {
+  height: 470px;
+  padding-top: 30px;
+}
+.footer {
+  height: 110px;
+  padding: 40px 50px 0 50px;
+  background: #eee;
+  text-align: center;
+}
+
+.header h1 {
+  width: 300px;
+  margin: 40px auto 0;
+}
+.header .nav {
+  overflow: hidden;
+  margin-top: 50px;
+}
+.header .nav li {
+  float: left;
+  position: relative;
+  z-index: 30;
+}
+.header .nav a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  width: 240px;
+}
+.header .submenu {
+  display: none;
+  /*position: absolute;*/  
+  width: 240px;
+  background: rgba(255,255,255,0.5);
+}
+.header .submenu li {margin-top: 5px;}
+.header .submenu a {
+  font-weight: normal;
+}
+
+.main_images img {
+  position: absolute;z-index: 10; transition: all 1s;
+}
+.main_images p {position: absolute;top: 60px;left: 60px;z-index: 20;margin: 0 !important;}
+.main_images b {display: block;font-size: 35px;color: #000;letter-spacing: -0.5;}
+
+.contents h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: -1px;
+}
+.col1 {margin-bottom: 40px;}
+.col1 h2 {text-indent: -9999px;font-size: 0;}
+.col1 a {display: inline-block; margin-right: 26px;}
+.col1 img {margin-right: 5px;vertical-align: middle;}
+
+.col2 {
+  float: left; width: 48%;
+}
+.col2 li {
+  margin-bottom: 10px;
+}
+.col2 span {
+  float: right;
+}
+.col3 {
+  float: right; width: 48%;
+}
+.footer .copyright {margin-top: 20px;}
+.footer_txt a {margin-right: 20px;}
+
+#model {display: none;position: fixed;top: 0;left: 0;z-index: 9999;width: 100%;height: 100%;background: rgba(0,0,0,0.5);}
+.box_model {width: 710px; height: 390px;margin:100px auto 0;}
+#model.active {display: block;}

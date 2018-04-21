@@ -1,0 +1,57 @@
+.wrap {
+  width: 300px;
+}
+.header {
+  width: 300px;
+  height: 50px;  
+  background: #ea474d;
+}
+.nav {
+  width: 300px;
+  height: 50px;
+  background: #ffa200;
+}
+.content {
+  overflow: hidden;
+}
+.snb {
+  float: left;
+  width: 50px;
+  height: 200px;
+  background: gray;
+}
+.section {
+  float: left;
+  width: 150px;
+  height: 200px;
+  background: yellow;
+}
+.section .header {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #000;
+  background: white;
+}
+.section .article {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #000;
+  background: white
+}
+.section .footer {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #000;
+  background: white
+}
+.aside {
+  float: left;
+  width: 100px;
+  height: 200px;
+  background: blue;
+}
+.footer {
+  width: 300px;
+  height: 50px;
+  background: purple;
+}

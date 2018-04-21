@@ -1,0 +1,82 @@
+@charset "utf-8";
+* {margin: 0;padding: 0;list-style: none;vertical-align: top;color: #666;
+  text-decoration: none;font-size: 12px;}
+  
+.wrap {width: 1100px;margin: 0 auto;}
+.header {height: 80px;}
+.slideimg {overflow: hidden;position: relative;height: 288px;}
+.submenu {height: 122px;background: #aa1622;}
+.contents {overflow: hidden;}
+.footer {height: 247px;background: #f4f4f4;}
+
+.header h1 {float: left;padding-top: 30px}
+.header ul {float: right;padding-top: 30px;}
+.header li {float: left;}
+.header ul a {display: block;width: 135px;height: 48px;text-align: center;font-size: 18px;font-weight: 600;color: #000;}
+.header ul a:hover {border-bottom: 2px solid #e33034;}
+
+.slideimg img {position: absolute;transition: all 1s;}
+
+.submenu li {float: left;width: 25%}
+.submenu a {display: block;height: 90px;margin-top: 15px;padding-left: 150px;border-right: 1px solid #c05c5e;font-size: 17px;line-height:90px ;color: #fff;}
+.submenu li:nth-child(1) a {background: url(../images/tab_icon1.png) 50px 16px no-repeat;}
+.submenu li:nth-child(2) a {background: url(../images/tab_icon2.png) 50px 16px no-repeat;}
+.submenu li:nth-child(3) a {background: url(../images/tab_icon3.png) 50px 16px no-repeat;}
+.submenu li:nth-child(4) a {background: url(../images/tab_icon4.png) 50px 16px no-repeat;border: none;}
+
+.col1, .col2 {float: left;position: relative;width:calc(50% - 60px);height: 415px;margin-top: 50px;padding:0 30px;background: url(../images/bg_section.gif) 0 0;}
+ .col3, .col4, .col5, .col6 {float: left ;width:50%;background: #eee}
+
+ .contents strong {display: block;position: relative;height: 50px;margin-bottom: 20px;font-size: 22px;font-weight: 700;color: #000}
+ .contents strong::before {display: block;position: absolute;bottom: 0;left: 0;width: 27px;height: 2px;background: #000;content: ""}
+ .contents .tit_login {margin-bottom: 40px;}
+ fieldset {border:0 none;}
+ legend {overflow: hidden;text-indent: -9999px;font-size: 0;}
+ .area_login {position: relative;width:371px}
+ .inputbox {position: relative;}
+ .inputbox label {position: absolute;top: 12px;left: 20px;}
+ .inputbox input {width: 250px;height: 40px;padding: 0 20px;border: 1px solid #ccc;}
+ .inputbox2 {overflow: hidden;}
+ .inputbox2 input {margin-top: -1px;}
+ .chk_id_login {margin-top: 5px;}
+.chk_id_login input {vertical-align: middle;margin-right: 5px;}
+.chk_id_login label {letter-spacing: -1px;}
+.input_login {position: absolute;top: 0;right: 0;width: 80px;height: 83px;background: #333;border: none;color: #fff;font-size: 14px;}
+.btn_link {position: absolute;bottom: 0;right: 0;letter-spacing: -1px;}
+.btn_link .link_join {margin-right: 20px;}
+
+.sch1 {border-bottom: 2px solid #000;}
+.sch1 label {margin-right: 10px;color: #222;font-size: 18px;font-weight: 500;line-height: 52px;}
+.sch1 .input_txt {width: 345px;height: 52px;padding-left: 10px;border: none;font-size: 15px;}
+.sch1 .input_btn{overflow: hidden;width: 44px; height: 52px;border: none;background: url(../images/btn_search.gif) 0 0 no-repeat;text-indent: -9999px;}
+
+.sch2 {margin-top: 10px;}
+.sch2 input {margin: 3px 3px 0 15px;vertical-align: middle;}
+.sch2 input:first-child {margin-left: 0;}
+.sch2 label {font-size: 15px;}
+
+.sch_g {padding-bottom: 40px;border-bottom: 1px solid #ddd;}
+.sch_g2 {padding-top: 30px;}
+.sch_g2 .sel_sido {width: 150px;height: 40px;margin-top: 10px;border: none;border-bottom: 2px solid #757575;font-size: 18px;}
+
+.area_g {position: relative;width: 490px;margin:50px auto;}
+.col_g b {display: block;font-size: 18px;font-weight: normal;color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;}
+.col_g em {font-size: inherit;font-style: normal;color: #7c5327;} /*inherit 부모 속성 상속*/
+.col_g span {display: block;margin: 35px 0 15px;font-family: verdana;}
+.col_g p {padding-top: 23px;border-top: 1px solid #ddd;font-size: 13px;line-height: 20px;}
+
+.col5 .area_g ul {position: absolute;top: 0;right: 0;width: 300px;}
+.col5 .area_g li {margin-bottom: 10px;}
+.col5 .area_g a {font-size: 13px;}
+.col6 .left {float: left;margin-right: 100px;}
+.col6 .right {float: left;text-align: center;font-family: vedana;}
+.col6 .price {font-size: 62px;color: #000}
+.col6 .up {display: block;font-size: 20px;font-style: normal;color: #be181e;}
+.col6 span {display: block;margin-top: 20px;padding: 5px 0;border-top: 1px solid #d1d2d4;border-bottom: 1px solid #d1d2d4;}
+
+.col3, .col4 {overflow: hidden;height: 323px;}
+.col5, .col6 {overflow: hidden;height: 250px;}

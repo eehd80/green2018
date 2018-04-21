@@ -1,0 +1,59 @@
+
+메인컬러 : #4b2358
+보조컬러 : #1e1e1e 
+텍스트컬러 : #666
+배경 : #fff
+
+
+
+HERA [width : 950px]
+
+-------------------------------
+[header] height: 160px
+
+HERA(logo) height 73px
+
+BRAND STORY (SEOULISTA / MIZIUM)
+PRODUCTS (MAKE-UP / SKINCARE / HOMME)
+MAGAZIN
+LIBRARY
+BOUTIQUE
+EVENT
+
+-------------------------------
+[slideimg] height:260px;
+
+p : hera (자간 넓게)
+
+-------------------------------
+[content] 높이 자유
+
+BRAND STORY
+
+배너 2개
+
+
+THE LATEST
+
+[TV CF] ALL WOMEN'S LIPS ARE EQUAL
+본래 입술색은 숨기고 립스틱 컬러만 살려서, 누구에게나 절대컬러를
+
+[MAKEUP] 2017 HOLIDAY STYLE GUIDE
+2017 빛나는 홀리데이 메이크업을 완성해 보세요.
+
+[SKINCARE] 링클 코렉터
+탄력 있는 팽팽한 피부로 가꾸어주는 안티에이징 주름 크림
+
+[MAGAZINE] 헤라 매거진 VOL.25 겨울호
+12월 동안 업데이트 되는 서울리스타의 2017년 겨울을 확인해보세요.
+
+------------------------------
+
+[footer] height 150px
+
+페이스북 / 유튜브 / 인스타
+
+
+고객서비스센터 / 서비스이용약관 / 개인정보 처리(취급) 방침 / 영상정보처리방침 / 고객서비스센터
+
+2014  AMOREPACIFIC. All Rights Reserved.

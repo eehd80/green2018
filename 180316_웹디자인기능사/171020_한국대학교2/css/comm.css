@@ -1,0 +1,15 @@
+@charset "utf-8";
+* {margin:0; padding:0; list-style: none; vertical-align: top; color:#666; text-decoration: none; font-size:12px;}
+
+.wrap {width: 960px;margin: 0 auto;}
+header {height: 200px;}
+header h1 {float: left;margin-top: 50px;}
+.nav {float: right;margin-top: 100px;}
+.nav li {float: left;position: relative;width: 200px;text-align: center;}
+.nav li a {display: block;width: 200px;padding: 5px 0;text-align: center;font-size: 15px;}
+.nav li a:hover {background: #009688;}
+.submenu {display: none;position: absolute;width: 100%;background-color:rgba(255,255,255,0.8);}
+.submenu li a:hover {background: #73f8ec;}
+
+.imgs {position: relative;}
+.imgs img {position: absolute;}

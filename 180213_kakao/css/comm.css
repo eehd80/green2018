@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  vertical-align: top;
+  font-family: 'Noto Sans','맑은 고딕',malgun gothic,'돋움',Dotum,'sans-serif';
+  font-size: 14px;
+  color: #666
+}
+
+.blind {overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px} 
+
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.header {
+  height: 20px; 
+  /*overflow: hidden; 대신 height 넣어도 됨*/
+  padding: 20px 0;
+}
+.header h1 {
+  float: left;
+}
+.header h1 a {
+  display: block;
+  width: 66px;
+  height: 20px;
+  background: url(../imgs/logo.png) 0 0 no-repeat;
+  text-indent: -9999px;
+}
+.header ul {
+  float: right;
+}
+.header ul li {
+  float: left;
+  margin-left: 30px;
+}
+.header li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 17px;
+}
+.header li a:hover {
+  border-bottom: 2px solid #111;
+}
+.slideimg {
+  position: relative;
+  overflow: hidden;
+  width: 980px;
+  height: 429px;
+}
+.slideimg ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2940px;
+}
+.slideimg li {
+  float: left;
+  width: 980px;
+}
+.slideimg img {
+  width: 100%;
+}
+
+.contents {
+  overflow: hidden;
+  margin-top: 40px;
+}
+.section_event {
+  float: left;
+  width: 48%;
+}
+.section_event img {
+  width: 100%;
+}
+.section_bbs {
+  float: right;
+  width: 48%;
+}
+.section_bbs li {
+  margin-bottom: 10px;
+  background: url(../imgs/ico_dot.gif) 0 9px no-repeat;
+  padding-left: 10px;
+}
+.section_bbs li span {
+  float: right;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  color: #aaa;
+}
+.section_go {
+  float: left;
+  clear: both;
+  margin: 30px 0 50px;
+}
+.section_go .link_g {
+  display: inline-block;
+  height: 50px;
+  margin-right: 30px;
+  padding-left: 50px;
+  line-height: 50px;
+}
+.section_go .link_go1 {  
+  background: url(../imgs/quick_bn01.png) 0 0 no-repeat;
+}
+.section_go .link_go2 {  
+  background: url(../imgs/quick_bn02.png) 0 0 no-repeat;
+}
+.section_go .link_go3 {  
+  background: url(../imgs/quick_bn03.png) 0 0 no-repeat;
+}
+.section_go .link_go4 {  
+  padding-left: 70px;
+  background: url(../imgs/quick_bn04.png) 0 0 no-repeat;
+}
+.section_go .link_go5 {  
+  background: url(../imgs/quick_bn05.png) 0 0 no-repeat;
+}
+.section_go .link_go6 {  
+  background: url(../imgs/quick_bn06.png) 0 0 no-repeat;
+}
+.section_go .link_go7 {  
+  background: url(../imgs/quick_bn07.png) 0 0 no-repeat;
+}
+
+.section_go2 {
+  float: left;
+  clear: both;
+  margin: 30px 0 50px;
+}
+.section_go2 a {
+  display: inline-block;
+  height: 50px;
+  margin-right: 30px;
+  padding-left: 50px;
+  line-height: 50px;
+}
+.section_go2 a:nth-of-type(1) {
+  background: url(../imgs/quick_bn01.png) 0 0 no-repeat;
+}
+.section_go2 a:nth-of-type(2) {
+  background: url(../imgs/quick_bn02.png) 0 0 no-repeat;
+}
+.section_go2 a:nth-of-type(3) {
+  background: url(../imgs/quick_bn03.png) 0 0 no-repeat;
+}
+.section_go2 a:nth-of-type(4) {
+  background: url(../imgs/quick_bn04.png) 0 0 no-repeat;
+}
+.section_go2 a:nth-of-type(5) {
+  background: url(../imgs/quick_bn05.png) 0 0 no-repeat;
+}
+.section_go2 a:nth-of-type(6) {
+  background: url(../imgs/quick_bn06.png) 0 0 no-repeat;
+}
+.section_go2 a:nth-of-type(7) {
+  background: url(../imgs/quick_bn07.png) 0 0 no-repeat;
+}
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid #ddd;
+}
+.footer a {
+  margin-right: 10px;
+}
+.footer .copyright {
+  margin-top: 10px;
+}

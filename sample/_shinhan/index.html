@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>신한카드</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="comm.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	var $list = $('.list_slide');
+	var size = $list.children().outerWidth();
+	var len =  $list.children().length;
+	var speed = 2000;
+	var timer = null;
+	var auto = true;
+	var cnt = 1;
+
+	$list.css('width',len*size);
+
+	if(auto) timer = setInterval(autoSlide, speed);
+
+	$list.children().bind({
+		'mouseenter': function(){
+			if(!auto) return false;
+			clearInterval(timer);
+			auto = false;
+		},
+		'mouseleave': function(){
+			timer = setInterval(autoSlide, speed);
+			auto = true;
+		}
+	})
+
+	$('.list_dot').children().bind({
+		'click': function(){
+			var idx = $('.list_dot').children().index(this);
+			cnt = idx;
+			autoSlide();
+			return false;
+		},
+		'mouseenter': function(){
+			if(!auto) return false;
+			clearInterval(timer);
+			auto = false;
+		},
+		'mouseleave': function(){
+			timer = setInterval(autoSlide, speed);
+			auto = true;
+		}
+	});		
+
+	function autoSlide(){
+		if(cnt>len-1){
+			cnt = 0;
+		}
+
+		$list.animate({'left': -(cnt*size)+'px' },'normal');
+
+		var source2 = $('.list_dot').children().find('img').attr('src').replace('_on.png','.png');
+		$('.list_dot').children().find('img').attr('src',source2);
+
+		var source = $('.list_dot').children().find('img').attr('src').replace('.png','_on.png');
+		$('.list_dot').children().eq(cnt).find('img').attr('src',source);
+
+		cnt++;
+	}
+</script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 헤더 -->
+		<div class="header">
+			<!-- 로고 -->
+			<h1 class="logo">
+				<a href=""><img src="imgs/logo_shinhan.gif" width="131" height="22" alt="신한카드"></a>
+			</h1>
+
+			<!-- 메뉴 -->
+			<h2 class="screen_out">메인 메뉴</h2>
+			<ul class="list_menu">
+			<li><a href="" class="link_g">마이페이지</a></li>
+			<li><a href="" class="link_g">카드</a></li>
+			<li><a href="" class="link_g">금융</a></li>
+			<li><a href="" class="link_g">포인트</a></li>
+			<li><a href="" class="link_g">서비스</a></li>
+			<li><a href="" class="link_g">모바일</a></li>
+			<li><a href="" class="link_g">고객센터</a></li>
+			</ul>
+
+		</div>		
+		<!-- //헤더 -->
+		<!-- 슬라이드이미지 -->
+		<div class="slideimg">
+			<!-- 이미지 -->
+			<h2 class="screen_out">슬라이드 이미지</h2>
+			<ul class="list_slide">
+			<li><a href=""><img src="imgs/slidebanner_1.gif" width="1024" height="317" alt="신한카드와 첫만남! 신용카드 발급 캐시백 이벤트"></a></li>
+			<li><a href=""><img src="imgs/slidebanner_2.gif" width="1024" height="317" alt="신한카드와 첫만남! 신용카드 발급 캐시백 이벤트"></a></li>
+			<li><a href=""><img src="imgs/slidebanner_3.gif" width="1024" height="317" alt="신한카드와 첫만남! 신용카드 발급 캐시백 이벤트"></a></li>
+			</ul>
+
+			<!-- 도트 -->
+			<ul class="list_dot">
+			<li><a href="">이미지1</a></li> <!-- 171011 on 추가: 활성화 -->
+			<li><a href="">이미지2</a></li>
+			<li><a href="">이미지3</a></li>
+			</ul>
+
+		</div>
+		<!-- //슬라이드이미지 -->
+		<!-- 컨텐츠 -->
+		<div class="cont">
+			<h2 class="screen_out">컨텐츠</h2>
+			<div class="col_c col1">
+				<h3>신한 FAN</h3>
+				<ul class="list_col1">
+				<li><a href="">FAN 가입/등록</a></li>
+				<li><a href="">안드로이드용 앱 다운</a></li>
+				<li><a href="">아이폰용 앱 다운</a></li>
+				</ul>
+			</div>
+			<div class="col_c col2">
+				<h3>금융</h3>
+				<a href="">
+					<strong>일부결제금액이월약정(리볼빙)신청</strong>
+					<p>이번달 결제금액을 나누어서<br> 내는 방법 알고 계신가요?</p>
+				</a>
+			</div>
+			<div class="col_c col3">
+				<h3>올댓쇼핑</h3>
+				<a href="">
+					<strong>깜빡하면 놓칠 슈퍼스라이스</strong>
+					<p>슈퍼프라이스가<br> 초특가를 모두 모았다.</p>
+				</a>
+			</div>
+		</div>		
+		<!-- //컨텐츠 -->
+		<!-- 풋터 -->
+		<div class="footer">
+			<ul>
+		      <li><a href="">회사소개</a><span>|</span></li>
+		      <li><a href="">지배구조</a><span>|</span></li>
+		      <li><a href="">투자정보</a><span>|</span></li>
+		      <li><a href="">ENGLISH SITE</a><span>|</span></li>
+		      <li><a href="">이용약관</a><span>|</span></li>
+		      <li><a href="">이용안내</a></li>
+		      </ul>     
+
+		      <address>서울특별시 중구 소공로 70(충무로 1가, 포스트타워) 대표이사 임영진 사업자등록번호 202-81-48079</address> 
+		      <div class="copyright">
+		      	 Copyright &#169 2013 SHINHANCARD CO.LTD.ALL RIGHTS RESERVED
+		      </div>    
+            
+            </div>		
+		<!-- //풋터 -->
+
+	</div>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

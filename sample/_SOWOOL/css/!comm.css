@@ -1,0 +1,36 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; text-decoration: none; list-style: none; vertical-align: top; font-size: 14px; color: #000;}
+
+.wrap{width: 1360px; margin: 0 auto;}
+.header{height: 210px;}
+.slideimg{height: 923px; overflow: hidden; position: relative;}
+.content{height: 1026px;}
+.footer{height: 149px; text-align: center; border-top: 1px solid #e5e5e5;}
+
+.logo{height:160px;  text-align: center;}
+.align_nav{text-align: center;}
+.nav li{display: inline-block; position: relative;}
+.nav a{display: block; width: 150px; height: 50px; line-height: 50px; font-size: 20px; text-align: center; font-weight: bold;}
+.nav a:hover{background: rgba(30,30,30,0.5); color: #bf9481;}
+.submenu{display: none; position: absolute; z-index: 30;}
+.submenu a{background: rgba(30,30,30,0.5); color: #bf9481;}
+.submenu a:hover{background: rgba(255,255,255,0.5); color: #4a4f55;}
+
+.slideimg img{position: absolute; z-index: 10; transition: all 1s;}
+
+.content h2{display: block; width: 100%; margin: 30px 0; font-size: 25px; text-align: center; color: #4a4f55;}
+.col1{overflow: hidden;}
+.col1 .benner_box1{float: left;}
+.col1 .benner_box2{float: right;}
+.col2 li{float: left; margin-right: 13px;}
+.col2 li:last-child{margin-right: 0;}
+.col2 img{margin-bottom: 10px;}
+.col2 strong{font-size: 15px;}
+
+.footer a{display: inline-block; margin: 10px 20px 20px 20px; text-align: center;}
+.footer p{margin-bottom: 10px;}
+
+#modal{display: none; background: rgba(0,0,0,.7); width: 100%; height: 100%; position: fixed; top: 0; left: 0; text-align: center; z-index: 999; padding-top: 100px;}
+#modal img{width: 682px; height: 384px;}
+#modal button{border: none; width: 50px; height: 50px; font-size: 20px; font-weight: bold; cursor: pointer;}
+#modal.active{display: block;}

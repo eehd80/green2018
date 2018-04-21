@@ -1,0 +1,119 @@
+@charset "utf-8";
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  vertical-align: top;
+  font-family: 'Noto Sans','맑은 고딕',malgun gothic,'돋움',Dotum,'sans-serif';
+  font-size: 14px;
+  color: #666
+}
+
+.blind {overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px} 
+/* 대체텍스트가 아닌 접근성을 위한 숨김텍스트를 제공할때 */
+
+/*layout*/
+.wrap {
+  width: 980px;
+  margin: 0 auto; /*block요소 가운데 정렬*/
+}
+.header {
+  height: 200px;
+}
+.slideimg {
+  overflow: hidden;
+  height: 480px;
+}
+.contents {
+  height: 500px;
+}
+.footer {
+  padding: 40px 50px;
+  background: #eee;
+  text-align: center;
+}
+
+/* header */
+.header h1 {
+  width: 300px;
+  margin: 20px auto 45px;
+}
+.header ul {
+  display: flex;
+}
+.header ul a {
+  display: block;
+  width: 245px;
+  height: 50px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section_goto {
+  margin: 40px 0 60px;
+  text-align: center;
+}
+.section_goto a {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 50px; /*횡간*/
+}
+.section_goto img {
+  margin-right: 5px;
+}
+.section_news {
+  float: left;
+  width: 48%;
+}
+.section_news h2, .section_banner h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  letter-spacing: -1px; /*자간*/
+}
+.section_news ul{
+  margin-top: 40px;
+}
+.section_news li {
+  display: block;
+  height: 30px;
+  padding-left: 10px;
+  background: url(images/icon_dot.gif) 0 8px no-repeat;
+}
+.section_news span {
+  float: right;
+}
+.section_banner {
+  float: right;
+  width: 48%;
+}
+.section_banner a {
+  transition: all 1s;
+}
+.section_banner a:hover{
+  background: rgba(0,0,0,0.5);
+  content: '가나다라마바사아자차카'
+}
+.footer .footer_txt {
+  margin-bottom: 20px;
+}
+.footer_txt a {
+  margin-right: 40px;
+}
+.footer address {
+  font-style: normal; /*폰트 바로 세우기*/
+}
+
+
+
+
+
+
+
+
+
+
