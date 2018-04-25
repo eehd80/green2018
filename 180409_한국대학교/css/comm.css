@@ -14,6 +14,10 @@
 .wrap {
     width: 1000px;
     margin: 0 auto;
+	background: #fff;
+}
+.wrap {
+	background: red;
 }
 header {
     height: 160px;
